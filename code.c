@@ -46,8 +46,7 @@ if (root == NULL) {
 printf("No flights available.\n");
 return root;
 }
-printf("Flight booked from %s to %s for %s with age %d. Price:%.2f\n",
-root->source, root->destination, root->name, root->age, root->price);
+printf("Flight booked from %s to %s for %s with age %d. Price:%.2f\n", root->source, root->destination, root->name, root->age, root->price);
 // Update the priority queue after booking
 return root->right;
 }
